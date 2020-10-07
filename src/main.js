@@ -10,3 +10,6 @@ new Vue({
   router,
   render: h => h(App)
 })
+
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts

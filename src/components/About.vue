@@ -1,16 +1,15 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    
+  <div class="about">
+    <h2>我是关于</h2>
+    <p>我是关于内容</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'About',
   data () {
     return {
-      msg: 'Hello Word!'
     }
   }
 }
